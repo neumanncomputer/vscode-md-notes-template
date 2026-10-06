@@ -1,0 +1,37 @@
+{
+  "Meeting Notes Template": {
+    "scope": "markdown",
+    "prefix": "mtg",
+    "body": [
+      "# ${CURRENT_YEAR}-${CURRENT_MONTH}-${CURRENT_DATE}_mtg_$1",
+      "",
+      "## 事前タスク",
+      "",
+      "## 共有事項",
+      "",
+      "## 確認事項",
+      "",
+      "## 参加者",
+      "",
+      "## 議事内容",
+      "",
+      "## 決定事項",
+      "",
+      "## ネクストアクション",
+      "",
+    ],
+    "description": "Meeting notes template",
+  },
+  "Daily Template": {
+    "scope": "markdown",
+    "prefix": "daily",
+    "body": ["# ${CURRENT_YEAR}-${CURRENT_MONTH}-${CURRENT_DATE}_daily", "", "## 今日のタスク", "", "## メモ", ""],
+    "description": "Daily log template",
+  },
+  "Quick Note Template": {
+    "scope": "markdown",
+    "prefix": "note",
+    "body": ["# ${CURRENT_YEAR}-${CURRENT_MONTH}-${CURRENT_DATE}_$1", "", "$2"],
+    "description": "Quick note template",
+  },
+}

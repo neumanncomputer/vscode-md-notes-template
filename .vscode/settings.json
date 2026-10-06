@@ -1,0 +1,7 @@
+{
+  "editor.tabCompletion": "on",
+  "explorer.sortOrder": "modified",
+  "markdown.copyFiles.destination": {
+    "**/*.md": "attachments/"
+  }
+}
