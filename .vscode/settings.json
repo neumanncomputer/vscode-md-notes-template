@@ -3,5 +3,6 @@
   "explorer.sortOrder": "modified",
   "markdown.copyFiles.destination": {
     "**/*.md": "attachments/"
-  }
+  },
+  "markdown.updateLinksOnFileMove.enabled": "always"
 }

@@ -1,0 +1,6 @@
+#!/bin/sh
+# ステージしたノートが AGENTS.md のルールに従っているか検証する
+python3 "$(git rev-parse --show-toplevel)/scripts/check_notes.py" --staged || {
+  echo "ノートのルール違反があるためコミットを中止しました（AGENTS.md 参照）" >&2
+  exit 1
+}
